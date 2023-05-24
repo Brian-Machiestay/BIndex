@@ -7,10 +7,14 @@ function Calc () {
         <div className="bmi-div">
             <h2>Enter your details below</h2>
             <div className="metric-options">
-                <input type="radio" id="metric" name="metric-options" value="metric" />
-                <label for="Metric">Metric</label><br />
-                <input type="radio" id="imperial" name="metric-options" value="imperial" />
-                <label for="imperial">Imperial</label><br />
+                <div className="metric">
+                    <input type="radio" id="metric" name="metric-options" value="metric" />
+                    <label for="Metric">Metric</label>
+                </div>
+                <div className="imperial">
+                    <input type="radio" id="imperial" name="metric-options" value="imperial" />
+                    <label for="imperial">Imperial</label><br />
+                </div>
             </div>
             <MetricInput></MetricInput>
             <BMIResult></BMIResult>

@@ -22,6 +22,7 @@ p, h1, h2 {
     width: 70%;
 } 
 
+/* styles for calculator component */
 .bmi-div {
     padding: 20px;
     margin-top: 90px;
@@ -30,4 +31,17 @@ p, h1, h2 {
     box-shadow: 2px 2px 2px gray;
     margin-left: -10%;
     height: 45vh;
+}
+
+.bmi-div .metric-options {
+    display: flex;
+}
+
+.bmi-div .metric-options .imperial {
+    margin-left: 170px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
 }
