@@ -1,10 +1,12 @@
 // component to render the header section of the application
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 
 function Header() {
     return (
-	<p>Food!</p>
+	<div className='header'>
+        <div className='CalcDecor'></div>
+
+    </div>
     );
 }
 
