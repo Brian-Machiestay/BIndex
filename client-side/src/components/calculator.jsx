@@ -8,7 +8,7 @@ function Calc () {
             <h2>Enter your details below</h2>
             <div className="metric-options">
                 <div className="metric">
-                    <input type="radio" id="metric" name="metric-options" value="metric" />
+                    <input type="radio" id="metric" name="metric-options" value="metric" checked="checked" />
                     <label for="Metric">Metric</label>
                 </div>
                 <div className="imperial">
