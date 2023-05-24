@@ -1,0 +1,8 @@
+/* styles for the header component */
+.header {
+    display: flex;
+}
+
+.calcDecor {
+    width: 80%;
+}

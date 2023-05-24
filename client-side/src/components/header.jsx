@@ -1,11 +1,12 @@
 // component to render the header section of the application
 import React from 'react';
 import Calc from './calculator';
+import '../assets/styles/landing.css';
 
 function Header() {
     return (
 	<div className='header'>
-        <div className='CalcDecor'>
+        <div className='calcDecor'>
             <h1>Body Mass Index Calculator</h1>
             <p>Better understand your weight in relation to your height 
                 with our body mass index calculator(BMI). 
