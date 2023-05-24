@@ -1,4 +1,5 @@
 import React from "react";
+import MetricInput from "./metricInput";
 
 function Calc () {
     return (
@@ -10,6 +11,9 @@ function Calc () {
                 <input type="radio" id="imperial" name="metric-options" value="imperial" />
                 <label for="imperial">Imperial</label><br />
             </div>
+            <MetricInput></MetricInput>
         </div>
     )
 }
+
+export default Calc;
