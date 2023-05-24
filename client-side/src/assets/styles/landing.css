@@ -1,10 +1,33 @@
+p, h1, h2 {
+    font-family:sans-serif
+}
+
+
 /* styles for the header component */
 .header {
     display: flex;
 }
 
 .calcDecor {
-    width: 80%;
+    width: 40%;
     background: rgb(248,254,254);
+    padding: 0 10%;
     background: linear-gradient(90deg, rgba(248,254,254,1) 0%, rgba(194,247,245,1) 48%, rgba(175,246,250,1) 81%);
+    height: 60vh;
+    border-bottom-right-radius: 40px;
+    padding-top: 90px;
+}
+
+.decorDes {
+    width: 70%;
+} 
+
+.bmi-div {
+    padding: 20px;
+    margin-top: 90px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    margin-left: -10%;
+    height: 45vh;
 }

@@ -8,7 +8,7 @@ function Header() {
 	<div className='header'>
         <div className='calcDecor'>
             <h1>Body Mass Index Calculator</h1>
-            <p>Better understand your weight in relation to your height 
+            <p className='decorDes'>Better understand your weight in relation to your height 
                 with our body mass index calculator(BMI). 
                 While BMI is not the sole determinant of a healtht body weight, 
                 it offers a valuable starting point to 
