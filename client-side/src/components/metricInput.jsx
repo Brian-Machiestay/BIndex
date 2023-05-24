@@ -2,14 +2,18 @@ import React from "react";
 
 function MetricInput () {
     return (
-        <div className="metic-inputs">
+        <div className="metric-inputs">
             <div className="height">
-                <input type="text" id="height" name="metric-height" value="height" /><br />
-                <label for="height">Height</label>
+                <label for="height">Height</label><br />
+                <div className="unit">
+                    <input type="text" id="height" name="metric-height" value="0" /><p>cm</p>
+                </div>
             </div>
             <div className="weight">
-                <input type="text" id="weight" name="metric-weight" value="weight" /><br />
-                <label for="weight">Weight</label>
+                <label for="weight">Weight</label><br />
+                <div className="unit">
+                    <input type="text" id="weight" name="metric-weight" value="0" /><p>kg</p>
+                </div>
             </div>
         </div>
     )
