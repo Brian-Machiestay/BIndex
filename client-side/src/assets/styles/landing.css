@@ -5,4 +5,6 @@
 
 .calcDecor {
     width: 80%;
+    background: rgb(248,254,254);
+    background: linear-gradient(90deg, rgba(248,254,254,1) 0%, rgba(194,247,245,1) 48%, rgba(175,246,250,1) 81%);
 }
