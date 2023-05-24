@@ -1,5 +1,6 @@
 import React from "react";
 import MetricInput from "./metricInput";
+import BMIResult from "./BMIResult";
 
 function Calc () {
     return (
@@ -12,6 +13,7 @@ function Calc () {
                 <label for="imperial">Imperial</label><br />
             </div>
             <MetricInput></MetricInput>
+            <BMIResult></BMIResult>
         </div>
     )
 }
