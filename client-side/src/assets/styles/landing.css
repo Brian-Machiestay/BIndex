@@ -124,12 +124,14 @@ input[value="0"] {
 .mid-section {
     margin-top: 30vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .mid-section .advice {
     font-size: 10pt;
     width: 80%;
+    min-width: 50%;
 }
 
 .sec1 {
@@ -137,6 +139,8 @@ input[value="0"] {
     width: 340px;
     height: 235px;
     border-radius: 20px;
+    margin-right: 10px;
+    margin: 5px;
 }
 .sec1 img {
     padding-left: 20px;
@@ -224,8 +228,12 @@ input[value="0"] {
     }   
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 590px) {
     
+    .header {
+        width: 100%;
+        margin-right: 0;
+    }
     /* make bmi results larger on small screens */
 
     .BMI-result {
@@ -235,5 +243,23 @@ input[value="0"] {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    .mid-section .sec1 {
+        width: 80%;
+        margin: 0;
+        min-width: 360px;
+    }
+    .mid-section .sec2 {
+        margin-top: 20px;
+        width: 80%;
+    }
+    .sec1 img {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .mid-section .advice {
+        width: 100%;
     }
 }
