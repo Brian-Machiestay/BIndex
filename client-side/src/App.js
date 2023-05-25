@@ -5,7 +5,10 @@ import Midsection from './components/Midsection';
 
 function App() {
     return (
-      <Header />
+      <>
+        <Header />
+        <Midsection />
+      </>
   );
 }
 
