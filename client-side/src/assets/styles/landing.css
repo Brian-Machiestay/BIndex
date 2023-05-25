@@ -110,7 +110,15 @@ input[value="0"] {
     font-weight: bold;
 }
 
+.bmi-after-calc {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.bmi-after-calc .info {
+    width: 40%;
+}
 
 
 /* add styles for small screens */
@@ -182,6 +190,19 @@ input[value="0"] {
 
     .metric-inputs .weight {
         margin-left: 10vw;
-    }
+    }   
+}
+
+@media screen and (max-width: 550px) {
     
+    /* make bmi results larger on small screens */
+
+    .BMI-result {
+        margin-top: 10px;
+        height: 200px;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
