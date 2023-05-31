@@ -162,7 +162,7 @@ input[value="0"] {
     flex-wrap: wrap;
     margin: 10%;
     background-color: rgb(246, 252, 248);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .tips {
@@ -296,7 +296,11 @@ input[value="0"] {
 }
 
 @media screen and (max-width: 590px) {
-    
+    /* overrides for health-tips component */
+    .health-tips {
+        margin: 5%;
+        width: 80%;
+    }
     .header {
         width: 100%;
         margin-right: 0;
