@@ -154,6 +154,28 @@ input[value="0"] {
 }
 
 
+/* styles for healthtips component */
+.health-tips {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 10%;
+    background-color: rgb(246, 252, 248);
+    border-radius: 5px;
+}
+
+.tips {
+    width: 31%;
+    min-width: 250px;
+    margin-right: 5px;
+}
+
+.tip-title {
+    font-weight: bold;
+}
+
+
 
 
 /* add styles for small screens */
@@ -205,6 +227,12 @@ input[value="0"] {
     input[type="text"] {
         width: 90%;
         height: 50px;
+    }
+
+    /* styles override for medium screens */
+    .tips {
+        width: 100%;
+        margin-right: 10px;
     }
 }
 

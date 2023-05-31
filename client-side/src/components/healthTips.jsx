@@ -10,29 +10,30 @@ function HealthTips () {
     const tip1 = {
         name : 'foodie',
         icon: <FontAwesomeIcon icon={ faCutlery }></FontAwesomeIcon>,
-        text: 'Healthy eating promotes weight control, disease prevention, \
-        better digestion, immunity, mental clarity and mood'
+        text: 'Healthy eating promotes weight control, disease prevention, better digestion, immunity, mental clarity and mood',
+        title: 'Healthy eating'
     };
     const tip2 = {
         name: 'exercise',
         icon: <FontAwesomeIcon icon={ faBicycle } ></FontAwesomeIcon>,
-        text: 'Exercise improves fitness, aids weight control, \
-        elevates mood and reduces disease risk, fostering wellness and longivity'
+        text: 'Exercise improves fitness, aids weight control, elevates mood and reduces disease risk, fostering wellness and longivity',
+        title: 'Regular exercise'
     }
 
     const tip3 = {
         name: 'sleep',
         icon: <FontAwesomeIcon icon= { faBed } ></FontAwesomeIcon>,
-        text: 'Sleep enhances mental clarity, emotional stability \
-        and physical wellness, promoting overall restoration and rejuvenation'
+        text: 'Sleep enhances mental clarity, emotional stability and physical wellness, promoting overall restoration and rejuvenation',
+        title: 'Adequate sleep'
+
     }
 
     return (
-        <>
+        <div className="health-tips">
             <Healthy { ...tip1 } ></Healthy>
             <Healthy { ...tip2 } ></Healthy>
             <Healthy { ...tip3 } ></Healthy>
-        </>
+        </div>
     )
 }
 
