@@ -9,22 +9,25 @@ library.add(faCutlery, faBicycle, faBed);
 function HealthTips () {
     const tip1 = {
         name : 'foodie',
-        icon: <FontAwesomeIcon icon={ faCutlery }></FontAwesomeIcon>,
+        icon: <FontAwesomeIcon icon={ faCutlery } size="2x"></FontAwesomeIcon>,
         text: 'Healthy eating promotes weight control, disease prevention, better digestion, immunity, mental clarity and mood',
-        title: 'Healthy eating'
+        title: 'Healthy eating',
+        iconName: 'food',
     };
     const tip2 = {
         name: 'exercise',
-        icon: <FontAwesomeIcon icon={ faBicycle } ></FontAwesomeIcon>,
+        icon: <FontAwesomeIcon icon={ faBicycle } size="2x" ></FontAwesomeIcon>,
         text: 'Exercise improves fitness, aids weight control, elevates mood and reduces disease risk, fostering wellness and longivity',
-        title: 'Regular exercise'
+        title: 'Regular exercise',
+        iconName: 'exercise-healthy',
     }
 
     const tip3 = {
         name: 'sleep',
-        icon: <FontAwesomeIcon icon= { faBed } ></FontAwesomeIcon>,
+        icon: <FontAwesomeIcon icon= { faBed } size="2x"></FontAwesomeIcon>,
         text: 'Sleep enhances mental clarity, emotional stability and physical wellness, promoting overall restoration and rejuvenation',
-        title: 'Adequate sleep'
+        title: 'Adequate sleep',
+        iconName: 'sleep-healthy'
 
     }
 
