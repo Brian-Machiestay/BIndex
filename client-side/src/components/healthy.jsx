@@ -5,8 +5,8 @@ function Healthy (props) {
 
     return (
         <div className= { props.name }>
-            { props.icon }
-            { props.text }
+            <div>{ props.icon } </div>
+            <p> { props.text }</p>
         </div>
     )
 }
